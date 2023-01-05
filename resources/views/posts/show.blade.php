@@ -9,7 +9,7 @@
         <div class="md:w-1/2">
             <img src="{{ asset('uploads').'/'.$post->imagen }}" alt="Imagen del post {{ $post->titulo }}"/>
             <div class="p-3">
-                <p>O Likes</p>
+                <p>0 Likes</p>
             </div>
             <div>
                 <p class="font-bold"> {{ $post->user->username }} </p>
