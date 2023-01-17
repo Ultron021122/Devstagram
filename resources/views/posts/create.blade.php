@@ -31,9 +31,7 @@
                     <label for="descripcion" class="mb-2 block uppercase text-gray-500 font-bold">
                         Descripción
                     </label>
-                    <textarea id="descripcion" name="descripcion" placeholder="Descripción" class="border p-3 w-full rounded-lg @error('descripcion') border-red-500 @enderror">
-                    {{ old('descripcion') }}
-                    </textarea>
+                    <textarea id="descripcion" name="descripcion" placeholder="Descripción" class="border p-3 w-full rounded-lg @error('descripcion') border-red-500 @enderror">{{ old('descripcion') }}</textarea>
                     @error('descripcion')
                         <p class="bg-red-500 text-white my-2 rounded-lg text-sm p-2 text-center">
                             {{ $message }}
