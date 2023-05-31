@@ -5,5 +5,7 @@
 @endsection
 
 @section('contenido')
-    Contenido de esta página
+    <div class="container mx-auto p-2">
+        Contenido de esta página
+    </div>
 @endsection

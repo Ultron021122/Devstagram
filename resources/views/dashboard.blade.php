@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <section class="container mx-auto mt-10">
+    <section class="container mx-auto mt-10 p-2">
         <h2 class="text-4xl text-center font-black my-10">
             Publicaciones
         </h2>
